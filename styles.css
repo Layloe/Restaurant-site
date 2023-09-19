@@ -1,0 +1,41 @@
+body, html
+{
+    height: 100%
+}
+body,h1,h2,h3,h4,h5,h6 
+{
+    font-family: "Alumni Sans", sans-serif
+}
+
+ /* Custom Styles for NavBar*/
+ .opacity-hover-off {
+    background-color: rgba(0,0,0,0.5);
+}
+ .opacity-hover-off:hover {
+    background-color: rgba(0,0,0,1);
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Hide navbar on phones/smaller screens */ 
+@media (max-width: 992px) {
+    #myNavbar {
+        display: none;
+    }
+}
+
+/*Custom styles for header */
+.bg-img {
+    background-image: url('assets/pizza_splash.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
