@@ -5,5 +5,13 @@ function openMenu(event, menuName) {
         menuArray[i].style.display = 'none'
     }
 
-    let tablinks = document.getElementsByClassName('menu')
-}
+    let tablinks = document.getElementsByClassName('tablink')
+    for (let i=0; i < tablinks.length; i++ ) {
+        tablinks[i].classList.remove('active-tab')
+    }
+
+     document.getElementById(menuName).style.display ='block'
+     event.currentTarget.classList.add('active-tab')
+} 
+
+document.getElementById("mainLink").click()
