@@ -86,13 +86,13 @@ body,h1,h2,h3,h4,h5,h6
     color: black;
   }
   
-  /* Custom CSS for greyscale images */
-  /* .img-greyscale {
+  /*  greyscale image */
+  .img-greyscale {
     filter: grayscale(100%);
-  } */
+  } 
   
   /*XL form boxes*/
-  /* .extra-large {
+  .extra-large {
     height: 60px;
     font-size: 1.8rem;
-  } */
+  }

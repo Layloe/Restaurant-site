@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alumni+Sans">
     <!--boot strap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!--css link not !zelda-->
+    <!--css link !zelda-->
     <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
@@ -173,7 +173,7 @@
       <p class="text-muted">Tomatoes and mozzarella</p>
 
     </div>
-    
+    </div>
  </div>
 
  <!--About Container-->
@@ -195,25 +195,63 @@
     </div>
 
     <h1 class="display-4"><b>History</b></h1>
-    <p class="fs-2">
-      WHO WE ARE.
-There’s nothing cookie-cutter about Jamie's Pizzaria. Not our pizzas. Not our people. And definitely not the way we live life. Around here, we don’t settle for anything less than food we’re proud to serve. And we don’t just clock in. Not when we can also become our best, make friends, and have fun while we’re at it. We’re the pizza company that lives life unboxed.
-    </p>
+    <p class="fs-2">WHO WE ARE.
+      There’s nothing cookie-cutter about Jamie's Pizzaria. Not our pizzas. Not our people. And definitely not the way we live life. Around here, we don’t settle for anything less than food we’re proud to serve. And we don’t just clock in. Not when we can also become our best, make friends, and have fun while we’re at it. We’re the pizza company that lives life unboxed.</p>
     <div class="row">
-      <div class="col-lg-3 col-med-4 col-sm-12">
-        <p class="fs-2"><b>The Chef?</b> Mr. Villa himself.We’re not for people who want to blend in: pushing boundaries is part of our heritage. We have more than 3 restaurants and 35 team members. Whether it’s the original Stuffed Crust or putting a pizza in outer space, we never stop driving ourselves to deliver hot pizzas, fast every time – anywhere you want to enjoy it.
-        </p>
-
+      <div class="col-lg-9 col-md-8 col-sm-12">
+        <p class="fs-2"><strong>The Chef?</strong>  Mr. Villa himself. We’re not for people who want to blend in: pushing boundaries is part of our heritage. We have more than 3 restaurants and 35 team members. Whether it’s the original Stuffed Crust or putting a pizza in outer space, we never stop driving ourselves to deliver hot pizzas, fast every time – anywhere you want to enjoy it. </p>
       </div>
-      <div class="col-lg-3 col-med-4 col-sm-12">
-        <img src="assets/chef.jpg" alt="chef" style="width: 200px;" class="rounded-circle">
+      <div class="col-lg-3 col-md-4 col-sm-12 text-end">
+        <img src="/assets/chef.jpg" style="width:200px" class="rounded-circle" alt="Chef">
       </div>
     </div>
+
     <p class="fs-2">Started from the bottom now we're here.</p>
-    <img src="assets/restaurant.jpg" alt="restaurant" style="width: 100%;" class="img-grayscale">
+    <img src="/assets/restaurant.jpg" style="width:100%" class="my-3 img-greyscale" alt="Restaurant">
+    
+  </div>
 </div>
 
+<!-- Contact-->
+  <div class="container-fluid bg-secondary text-white py-5 fs-2" id="contact">
+    <div class="container">
+      <h1 class="text-center display-2 mb-5">CONTACT</h1>
+      <p>Find us at 9706 Magnolia Ave, Riverside, CA 92503 or call us at (951)220-4135 </p>
+      <p>
+        <span class="badge bg-dark">FYI!</span>
+        We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste.
+      </p>
+      <p><b>Reserve</b> a table, ask for today's special or just send us a message</p>
+      <form action="" target="_blank">
+         <div class="mb-3">
+          <input type="text" class="form-control extra-large" placeholder="Name" required name="Name">
+        </div>
+        <div class="mb-3">
+          <input type="number" class="form-control extra-large" placeholder="How Many People" required name="People">
+        </div>
+        <div class="mb-3">
+          <input type="datetime-local" class="form-control extra-large" placeholder="Date and Time" required name="Date" value="date.now()">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control extra-large" placeholder="Message \ Special requirements" required name="Message">
+        </div>
+        <div class="mb-3">
+          <button type="submit" class="btn btn-light btn-lg btn-block fs-2">SEND MESSAGE</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <footer class="text-center bg-dark text-white py-4">
 
+    <p class="fs-1 mb-0">Built by Eduardo Sanchez</p>
+    <a href="https://eduardosanchez.us/" title="Eduardo Sanchez" target="_blank" class="text-success hover-text-green">https://eduardosanchez.us/</a>
+    <p></p>
+    <p class="fs-5 mb-0 ">
+      Original Design Inspired by MayanWolfe
+      <a href="https://www.twitch.tv/mayanwolfe" title="#100Devs" target="_blank" class="text-success hover-text-green">
+        #100Devs
+      </a>
+  </footer>
     <script src="script.js"></script>
 </body>
 </html>
