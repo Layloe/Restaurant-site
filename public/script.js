@@ -1,3 +1,15 @@
+//Alert Box Success/Failure
+window.onload = function () {
+    const urlParams = new URLSearchParams(window.location.search)
+
+    if(urlParams.has('success')) {
+        alert('Reservation successful')
+    }else if (urlParams.has('error')) {
+        alert('There was an error in making the reservation. Please call (951)220-4136')
+    }
+}
+
+
 //Tabbed Menu
 function openMenu(event, menuName) {
     let menuArray = document.getElementsByClassName('menu')

@@ -36,7 +36,7 @@
  <header class="bg-img d-flex flex-column justify-content-between" id="home">
     <div></div>
     <div class="d-flex flex-column text-center"> <!--Insert logo(justify-content-center) in future use here-->
-        <span class="display-1">JAMIE'S <br>BIG DICK PIZZ</span> 
+        <span class="display-1">JAMIE'S <br>PIZZARIA</span> 
         <p><a href="#menu" class="btn btn-lg btn-dark hover-btn fs-2">Let me see the menu</a></p>
     </div>
     <div class="d-flex justify-content-start"> <!--pushes left in this case-->
@@ -222,7 +222,7 @@
         We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste.
       </p>
       <p><b>Reserve</b> a table, ask for today's special or just send us a message</p>
-      <form action="" target="_blank">
+      <form action="/submit" method="post">
          <div class="mb-3">
           <input type="text" class="form-control extra-large" placeholder="Name" required name="Name">
         </div>
@@ -230,7 +230,7 @@
           <input type="number" class="form-control extra-large" placeholder="How Many People" required name="People">
         </div>
         <div class="mb-3">
-          <input type="datetime-local" class="form-control extra-large" placeholder="Date and Time" required name="Date" value="date.now()">
+          <input type="datetime-local" class="form-control extra-large" placeholder="Date and Time" required name="date" value="date.now()">
         </div>
         <div class="mb-3">
           <input type="text" class="form-control extra-large" placeholder="Message \ Special requirements" required name="Message">
