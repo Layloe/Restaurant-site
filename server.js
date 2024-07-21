@@ -43,7 +43,7 @@ app.post('/submit', async (req,res) => {
     try {
         const newContact = new Contact(formData)
         await newContact.save()
-        res.redirect('/?success')
+        res.redirect('/reservation')
     } catch (err) {
         res.redirect('/?error')
     }
@@ -52,6 +52,10 @@ app.post('/submit', async (req,res) => {
 
 app.get('/', (req,res) => {
     res.sendFile(__dirname + '/public/index.html')
+})
+
+app.get('/reservation', (req,res) => {
+    res.sendFile(__dirname + '/public/reservation.html')
 })
 
 //Start Server

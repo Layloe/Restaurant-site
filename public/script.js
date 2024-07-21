@@ -4,7 +4,7 @@ window.onload = function () {
 
     if(urlParams.has('success')) {
         // alert('Reservation successful')
-        redirect
+        redirect('/reservation')
     }else if (urlParams.has('error')) {
         alert('There was an error in making the reservation. Please call (951)220-4136')
     }
