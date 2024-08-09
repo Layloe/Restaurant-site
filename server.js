@@ -1,6 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
+const PORT = process.env.PORT || 4242
 require('dotenv').config()
 
 const app = express()
@@ -59,7 +60,7 @@ app.get('/reservation', (req,res) => {
 })
 
 //Start Server
-const PORT = 4242
+
 app.listen(PORT, () => {
     console.log(`Server connected on ${PORT}`)
 })
